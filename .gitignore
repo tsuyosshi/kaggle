@@ -1,8 +1,7 @@
-input/*
-output/*
 *.csv
 *.gz
 *.pkl
 *~
 *.swp
 *.json
+*.zip
