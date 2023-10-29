@@ -1,14 +1,13 @@
-# 実行方法 (WSL環境)
-1. .kaggle.json を /kaggle/ にコピー
+# 実行方法
+1. .kaggle.json を ./kaggle/ にコピー
 
 2. 
 ```
-docker build .
+make cup
 ```
 3. 
 ```
-docker-compose -f docker-compose.yml up -d
+localhost:8888 に接続
 ```
-4. vscode で kaggle-container にアタッチ
 
-5. コンテナ内で作業 (kaggle api 使用可)
+5. jupyter lab で作業 (kaggle api 使用可)
