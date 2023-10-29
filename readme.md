@@ -11,3 +11,6 @@ localhost:8888 に接続
 ```
 
 5. jupyter lab で作業 (kaggle api 使用可)
+
+# 参考
+https://speakerdeck.com/ktakita1011/oreorekagglekai-fa-huan-jing
