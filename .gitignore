@@ -5,3 +5,8 @@
 *.swp
 *.json
 *.zip
+*.DS_Store
+*.ipynb_checkpoints
+
+./input/*
+./output/*
