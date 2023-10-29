@@ -1,9 +1,5 @@
 FROM python:3
 
-# RUN mkdir /root/.kaggle
-# COPY ./kaggle.json /root/.kaggle/
-# RUN chmod 600 /root/.kaggle/kaggle.json
-
 WORKDIR /kaggle
 
 RUN pip install --upgrade pip && \
@@ -13,8 +9,7 @@ COPY ./ ./
 RUN pip install -r requirements.txt
 
 RUN chmod +x ./run.sh
-CMD ["sh ./run.sh"]
-
+CMD ["./run.sh"]
 # FROM python:3
 
 # ENV PROJECT_DIR kaggle
