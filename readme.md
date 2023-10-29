@@ -9,7 +9,7 @@ $ make cup
 
 5. jupyter lab で作業 (kaggle api 使用可)
 ```
-pip install -r requirements.txx
+pip install -r requirements.txt
 ```
 を実行
 
